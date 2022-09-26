@@ -20,7 +20,7 @@
         </ul>
     </header>
     <div class="px-4 py-5 my-5 text-center">
-        <!-- Do obsahu elementi <h1> chceme dosadit atribut „cas“ z modelu. -->
+        <!-- Do obsahu elementu <h1> chceme dosadit atribut „cas“ z modelu. -->
         <h1 class="display-1 fw-bold">${cas}</h1>
     </div>
 </div>
