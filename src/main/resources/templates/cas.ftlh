@@ -1,5 +1,6 @@
+[#ftl]
 <!DOCTYPE html>
-<html lang="cs" xmlns:th="http://www.thymeleaf.org">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <title>Datum a čas</title>
@@ -19,8 +20,8 @@
         </ul>
     </header>
     <div class="px-4 py-5 my-5 text-center">
-        <!-- Text „čas“ chceme nahradit obsahem atributu „cas“ z modelu. -->
-        <h1 class="display-1 fw-bold" th:text="${cas}">čas</h1>
+        <!-- Do obsahu elementi <h1> chceme dosadit atribut „cas“ z modelu. -->
+        <h1 class="display-1 fw-bold">${cas}</h1>
     </div>
 </div>
 </body>

@@ -41,7 +41,7 @@ public class DateTimeController {
    */
   @GetMapping("/datum")
   public ModelAndView datum() {
-    //Vytvoříme si sdružený objekt pro model a view. Použijeme view „datum“, tedy šablonu v souboru „src/main/resources/templates/datum.html“.
+    //Vytvoříme si sdružený objekt pro model a view. Použijeme view „datum“, tedy šablonu v souboru „src/main/resources/templates/datum.ftlh“.
     ModelAndView result = new ModelAndView("datum");
     //Do modelu pod klíčem „datum“ vložíme aktuální datum zformátované dle českých zvyklostí.
     result.addObject("datum", LocalDate.now().format(DATE_FORMATTER));
@@ -56,7 +56,7 @@ public class DateTimeController {
    */
   @GetMapping("/cas")
   public ModelAndView cas() {
-    //Vytvoříme si sdružený objekt pro model a view. Použijeme view „datum“, tedy šablonu v souboru „src/main/resources/templates/datum.html“.
+    //Vytvoříme si sdružený objekt pro model a view. Použijeme view „datum“, tedy šablonu v souboru „src/main/resources/templates/datum.ftlh“.
     ModelAndView result = new ModelAndView("cas");
     //Do modelu pod klíčem „datum“ vložíme aktuální čas zformátovaný dle českých zvyklostí.
     result.addObject("cas", LocalTime.now().format(TIME_FORMATTER));
