@@ -29,7 +29,7 @@ CSS framework [Bootstrap](https://getbootstrap.com).
 1. Zkontroluj výsledek v prohlížeči.
 
 ## Mohlo by se hodit
-* odkaz na stránku [Lekce 2](https://java.czechitas.cz/2021-jaro/java-2/lekce-2.html)
+* odkaz na stránku [Lekce 2](https://java.czechitas.cz/2022-podzim/java-2-online/lekce-2.html)
 * CSS framework [Bootstrap](https://getbootstrap.com)
 * balík [java.time](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/package-summary.html)
 * třída [java.time.format.DateTimeFormatter](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/format/DateTimeFormatter.html)
